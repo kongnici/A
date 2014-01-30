@@ -36,3 +36,26 @@ int main(void)
     }
     return 0;
 }
+
+// 
+
+#include <cs50.h>
+#include <stdio.h>
+
+int main(int argc, string argv[])
+{
+    //   print arguement
+    printf("\n");
+    for (int i = 0; i < argc; i++)
+         printf("%s\n", argv[i]);
+    printf("\n");
+    return 0;
+}
+
+/***********
+ * jharvard@appliance (~/src2w): ./argv1 goodbye classroom 
+ * 
+ * ./argv1
+ * goodbye
+ * class
+ * 
