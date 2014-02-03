@@ -32,21 +32,8 @@ int main(int argc, string argv[])
                 }
             }
         }
-        int output = (p[i] + k) % 26
-        printf(you get:%c\n",output)
     }
     return 1;
-}
-    if(isalhpa(k))
-    {
-        if(isupper(k))
-        {
-            
-        }
-        else
-        {
-            
-        }
-    }
+};
     
     //http://code.google.com/p/danieleugenewilliams/source/browse/CS50/pset2_crypto/caesar.c?r=e3d985f64042a5041b1c43e490bc5956c571dd63
